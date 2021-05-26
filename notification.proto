@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+message Notification {
+   int32 actor = 1;
+   string verb = 2;
+   int32 object = 3;
+   string time = 4;
+   string id = 5;
+   string tweet = 6;
+   optional string target = 7;
+   optional string foreign_id = 8;
+}
